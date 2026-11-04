@@ -4,4 +4,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="purple_status_bar">#FF6750A4</color>
     <color name="bg_screen">#FFFEF7FE</color>
+    <color name="gray_dark">#FF49454F</color>
 </resources>

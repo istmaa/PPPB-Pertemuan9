@@ -35,14 +35,14 @@ class MainActivity : AppCompatActivity() {
 
     private fun generateDummy(): List<Disaster> {
         return listOf(
-            Disaster(nameDisaster = "Tsunami", disasterType = "Natural"),
-            Disaster(nameDisaster = "Volcanic Eruption", disasterType = "Natural"),
-            Disaster(nameDisaster = "Earthquake", disasterType = "Natural"),
-            Disaster(nameDisaster = "Flood", disasterType = "Natural"),
-            Disaster(nameDisaster = "Fire", disasterType = "Natural"),
-            Disaster(nameDisaster = "Nuclear Accident", disasterType = "Man-made"),
-            Disaster(nameDisaster = "Terrorist Attack", disasterType = "Man-made"),
-            Disaster(nameDisaster = "War", disasterType = "Man-made")
+            Disaster(nameDisaster = "Tsunami", disasterType = "Natural", imageDisaster = R.drawable.img_tsunami),
+            Disaster(nameDisaster = "Volcanic Eruption", disasterType = "Natural", imageDisaster = R.drawable.img_volcanic_eruption),
+            Disaster(nameDisaster = "Earthquake", disasterType = "Natural", imageDisaster = R.drawable.img_earthquake),
+            Disaster(nameDisaster = "Flood", disasterType = "Natural", imageDisaster = R.drawable.img_flood),
+            Disaster(nameDisaster = "Fire", disasterType = "Natural", imageDisaster = R.drawable.img_fire),
+            Disaster(nameDisaster = "Nuclear Accident", disasterType = "Man-made", imageDisaster = R.drawable.img_nuclear_accident),
+            Disaster(nameDisaster = "Terrorist Attack", disasterType = "Man-made", imageDisaster = R.drawable.img_terrorist_attack),
+            Disaster(nameDisaster = "War", disasterType = "Man-made", imageDisaster = R.drawable.img_war)
         )
     }
 }
